@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 # ( ( trainX, trainY ), ( testX, testY ) ) 가 튜플형식으로 들어있다.
 (trainX, trainY), (testX, testY) = tf.keras.datasets.fashion_mnist.load_data()
 
-# print(trainX)
-# print(trainX.shape) # trainX는 이미지 6만개입니다.
+# print(trainX.shape) # train
+# print(trainX)X는 이미지 6만개입니다.
 #
 # print(trainY) # 정답(종류)이 들어있는 리스트 글자를 정수로 치환해서 저장해놓은 겁니다.
 
