@@ -1,0 +1,5 @@
+Validation : MAE scores for each fold: [67.27480576750172, 67.88176478735953, 68.13805658687394, 67.7352265807772, 67.401311882071]
+Validation : MAE: 67.68623312091668
+
+threshold = 87 # Your Threshold
+lgbm = lgb.LGBMRegressor(num_leaves=2)

@@ -62,7 +62,7 @@ ann.fit(X_train, y_train, batch_size = 32, epochs = 100)
 
 # Part 4 - Making the predictions and evaluating the model
 
-# Predicting the result of a single observation
+# Predicting the results of a single observation
 
 """
 Homework:

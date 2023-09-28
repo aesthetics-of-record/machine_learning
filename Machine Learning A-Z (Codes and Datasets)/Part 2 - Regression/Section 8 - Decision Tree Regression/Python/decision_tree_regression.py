@@ -15,7 +15,7 @@ from sklearn.tree import DecisionTreeRegressor
 regressor = DecisionTreeRegressor(random_state = 0)
 regressor.fit(X, y)
 
-# Predicting a new result
+# Predicting a new results
 regressor.predict([[6.5]])
 
 # Visualising the Decision Tree Regression results (higher resolution)

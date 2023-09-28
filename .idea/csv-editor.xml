@@ -17,6 +17,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\공모전\HD현대\data\sample_submission.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\공모전\HD현대\results\baseline_submit.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
