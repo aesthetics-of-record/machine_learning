@@ -31,7 +31,7 @@ model = tf.keras.models.Sequential([
     # sigmoid 는 모든 것을 0과 1사이의 확률로 예측 결과를 뱉어냅니다.
 ])
 
-# 우리가 기울기를 뺄 때 러닝메이트를 이용해서 뺀다고 했는데, 그 빼는 값을 조정해주는 게 옵티마이저입니다.
+# 우리가 기울기를 뺄 때 러닝레이트를 이용해서 뺀다고 했는데, 그 빼는 값을 조정해주는 게 옵티마이저입니다.
 # adam, adagrad, adadelta, rmsprop, sgd 등의 옵티마이저가 있는데, 기본적으로 그냥 adam을 쓰면 됩니다.
 # 로스함수중에 bianry_crossentropy는 보통 0과 1사이의 분류/확률 문제에서 씁니다.
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
