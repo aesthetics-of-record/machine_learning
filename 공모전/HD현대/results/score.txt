@@ -3,3 +3,7 @@ Validation : MAE: 67.68623312091668
 
 threshold = 87 # Your Threshold
 lgbm = lgb.LGBMRegressor(num_leaves=2)
+
+
+
+Validation : NMAE: 31.980795060652504
